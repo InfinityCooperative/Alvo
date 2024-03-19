@@ -1,18 +1,34 @@
 body{
-    background-color:cornflowerblue;
+    background-color: rgb(218, 241, 236);
     text-align: center;
 }
+.cabecalho{
+    background-color:cornflowerblue;
+    border-width: 0.7px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 5px;
+    height: auto;
+}
 .logo{
+    margin-top: 0px;
     position: relative;
-    width: 297px;
-    margin-top: 10px;
+    height: 200px;
+}
+.rodape{
+   background-color:cornflowerblue;
+    border-radius: 5px;
+    border-width: 0.7px;
+    border-style: solid;
+    border-color: #000;
+    height: auto;
 }
 .imagem{
     position: relative;
+    height: 40px;
     margin: 20px;
-    height: 25px;
 }
 .referencia{
     position: relative;
-    height: 50px;
+    height: 25px;
 }
