@@ -3,6 +3,11 @@ body{
     text-align: center;
 }
 .cabecalho{
+     background:url(imagens/nevando.png) center  center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-color:cornflowerblue;
     border-width: 0.7px;
     border-style: solid;
