@@ -1,6 +1,7 @@
 body{
     background-color: rgb(218, 241, 236);
     text-align: center;
+    color:white;
 }
 .cabecalho{
      background:url(imagens/nevando.png) center  center no-repeat fixed;
@@ -52,17 +53,17 @@ body{
 .cooperacao1{
     position: relative;
     margin: 10px;
-    color: black;
+    color: white;
 }
 .cooperacao2{
     position: relative;
     margin: 10px;
-    color: black;
+    color: white;
 }
 .cooperacao3{
     position: relative;
     margin: 10px;
-    color: black;
+    color: white;
 }
 .slogan{
     position: relative;
