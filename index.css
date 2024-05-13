@@ -4,7 +4,7 @@ body{
     color:white;
 }
 .cabecalho{
-     background:url(imagens/nevando.png) center  center no-repeat fixed;
+     background:url(imagens/nevando.avif) center  center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,7 +31,7 @@ body{
     height: 200px;
 }
 .rodape{
-    background:url(imagens/nevando.png) center  center no-repeat fixed;
+    background:url(imagens/nevando.avif) center  center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
