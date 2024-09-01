@@ -22,12 +22,12 @@ body{
 .bandeira{
     position: absolute;
     height: 300px;
-    margin: -281px -616px 170px 90%;
+    margin: -281px -616px 170px 77%;
     transition-duration: 0.5s;
 }
 .bandeira:hover{
     height: 300px;
-    margin: -170px -616px 170px 90%;
+    margin: -170px -616px 170px 77%;
     transition-duration: 0.5s;
     transition-delay: 0.1s;
 }
