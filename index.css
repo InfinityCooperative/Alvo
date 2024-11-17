@@ -16,18 +16,18 @@ body{
     height: auto;
 }
 .voltar{
-      height: 35px;
-      margin:0% 0% 0% -95%;
+      height: 30px;
+      margin: -1% 0% 0% -84%;
 }
 .bandeira{
     position: absolute;
-    margin: -57px 0% 0% 76%;
+    margin: -57px 0% 0% 70%;
     height: 80px;
     transition: 1s;
 }
 .bandeira:hover{
     position: absolute;
-    margin: -18px 0% 0% 76%;
+    margin: -18px 0% 0% 70%;
     height: 80px;
     transition: 1s;
 }
@@ -116,7 +116,7 @@ body{
 img.doacao {
     display: grid;
     transform: rotate(-45deg);
-    margin: 36px 30px 47px 90%;
+    margin: 36px;
     height: 71px;
     justify-content: end;
 }
