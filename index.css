@@ -47,6 +47,42 @@ body{
     border-color: #000;
     height: auto;
 }
+    <form action="https://api.staticforms.xyz/submit" class="form" method="post">
+                    <h3>Formulario de envio</h3>
+                    <Label>Nome Completo</Label>
+                    <input type="text" name="name" placeholder="Seu Nome Completo" required>
+                    <Label>Seu email para contato</Label>
+                    <input type="text" name="email" placeholder="Seu Email" required/>
+                    <Label>Sua mensagem</Label>
+                    <textarea name="message" cols="25" rows="10" placeholder="Escreva sua mensagem" required></textarea></p>
+                    <input type="text" name="honeypot" style="display:none">
+                    <input type="hidden" name="accessKey" value="fafa1d68-208c-4cea-b7c1-7d5fc042863f">
+                    <input type="hidden" name="subject" value="Contact us from - beauty.salon.3001@gmail.com" />
+                    <input type="hidden" name="replyTo" value="">
+                    <input type="hidden" name="redirectTo" value="https://beauty-sa.github.io/pagina-de-agradecimento/">
+                    <input type="submit" value="Enviar" class="botaoenv"/>
+                </form>
+.form{
+    background: white;
+    display: inline-grid;
+    padding: 30px 60px;
+    margin: 50px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+h3 {
+    color: black;
+}
+label{
+    color: black;
+    margin:10px;
+    font-weight: bold;
+}
+.botaoenv:hover {
+    text-decoration: underline;
+    border-style: solid;
+}
 .imagem{
     height: 40px;
 }
@@ -68,7 +104,7 @@ h4 {
 .cooperacao4,
 .cooperacao5 {
     margin: 5.7px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .cooperacao1:hover,
